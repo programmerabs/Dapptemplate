@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Dapptemplate/static/css/main.b3cda2a2.css",
-    "main.js": "/Dapptemplate/static/js/main.18ff9e24.js",
+    "main.css": "/Dapptemplate/static/css/main.79f40d84.css",
+    "main.js": "/Dapptemplate/static/js/main.c6646a12.js",
     "static/media/logo.png": "/Dapptemplate/static/media/logo.7d2ef711d673385789ba.png",
     "static/media/intelligence.svg": "/Dapptemplate/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
     "static/media/game-dev.svg": "/Dapptemplate/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
     "static/media/design.svg": "/Dapptemplate/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
     "index.html": "/Dapptemplate/index.html",
-    "main.b3cda2a2.css.map": "/Dapptemplate/static/css/main.b3cda2a2.css.map",
-    "main.18ff9e24.js.map": "/Dapptemplate/static/js/main.18ff9e24.js.map"
+    "main.79f40d84.css.map": "/Dapptemplate/static/css/main.79f40d84.css.map",
+    "main.c6646a12.js.map": "/Dapptemplate/static/js/main.c6646a12.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3cda2a2.css",
-    "static/js/main.18ff9e24.js"
+    "static/css/main.79f40d84.css",
+    "static/js/main.c6646a12.js"
   ]
 }

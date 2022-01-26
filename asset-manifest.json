@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/Dapptemplate/static/css/main.79f40d84.css",
-    "main.js": "/Dapptemplate/static/js/main.c6646a12.js",
+    "main.css": "/Dapptemplate/static/css/main.aad1a066.css",
+    "main.js": "/Dapptemplate/static/js/main.77ad0056.js",
     "static/media/logo.png": "/Dapptemplate/static/media/logo.7d2ef711d673385789ba.png",
+    "static/media/admin.jpeg": "/Dapptemplate/static/media/admin.bf34bb2bcf4a4f292615.jpeg",
+    "static/media/header.jpeg": "/Dapptemplate/static/media/header.97c3e59355afda790a66.jpeg",
+    "static/media/banner.jpeg": "/Dapptemplate/static/media/banner.e5686699414a14257507.jpeg",
+    "static/media/logo.jpeg": "/Dapptemplate/static/media/logo.93982c97996e0bfebcb3.jpeg",
     "static/media/intelligence.svg": "/Dapptemplate/static/media/intelligence.11bd2ab25b415eeb093876127c8d6654.svg",
     "static/media/game-dev.svg": "/Dapptemplate/static/media/game-dev.20147858b407ad93903c5454f0631b6f.svg",
     "static/media/design.svg": "/Dapptemplate/static/media/design.8ecb3043cd761000705693c804edfb76.svg",
+    "static/media/game.svg": "/Dapptemplate/static/media/game.07c43e2cd90e902d21ccca65bce4eaf5.svg",
     "index.html": "/Dapptemplate/index.html",
-    "main.79f40d84.css.map": "/Dapptemplate/static/css/main.79f40d84.css.map",
-    "main.c6646a12.js.map": "/Dapptemplate/static/js/main.c6646a12.js.map"
+    "main.aad1a066.css.map": "/Dapptemplate/static/css/main.aad1a066.css.map",
+    "main.77ad0056.js.map": "/Dapptemplate/static/js/main.77ad0056.js.map"
   },
   "entrypoints": [
-    "static/css/main.79f40d84.css",
-    "static/js/main.c6646a12.js"
+    "static/css/main.aad1a066.css",
+    "static/js/main.77ad0056.js"
   ]
 }

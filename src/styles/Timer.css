@@ -1,0 +1,72 @@
+#countdown{
+ 
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+position: relative;
+max-width: 100%;
+margin: 0;
+margin-bottom: 20px;
+}
+  .flip-clock-divider {
+    display: block;
+    float: unset;
+    position: relative;
+    width: 68px;
+    height: 120px;
+}
+.flip-clock-divider::before {
+    content: ":";
+    font-family: Quantico-Regular;
+    color: #fff;
+    font-size: 120px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+     
+}
+.flip-clock-dot.top {
+    top: 30px;
+}
+.flip-clock-divider span {
+    display: none;
+}
+.flip-clock-dot {
+    display: block;
+    background: #323434;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    left: 5px;
+}
+.flip-clock-dot.bottom {
+    bottom: 30px;
+}
+.box {
+    position: relative;
+    float: unset;
+    margin: 5px;
+    border-radius: 10px;
+    background: #0d1629;
+    padding: 25px;
+}
+ 
+  #countdown .box p {
+    color: #fff;
+    font-size: 75px;
+    font-weight: 700;
+ 
+  }
+  #countdown .box .text {
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+ 

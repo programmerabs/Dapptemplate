@@ -4,10 +4,12 @@ import Timer from '../Components/Timer'
 import Particle from '../Components/Particle';
 import {MainLayout} from '../styles/Layouts';
 import ImageSection from '../Components/ImageSection';
+import Preloader from '../Components/Preloader/Preloader';
 
 function HomePage() {
     return (
         <>
+        <Preloader/>
         <HomePageStyled>
             <div className="particle-con">
                 <Particle />

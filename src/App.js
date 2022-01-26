@@ -5,7 +5,8 @@ import Sidebar from "./Components/Sidebar";
 import styled from 'styled-components';
 import HomePage from "./Pages/HomePage";
 import AboutPage from './Pages/AboutPage';
- import ContactPage from './Pages/ContactPage';
+import ContactPage from './Pages/ContactPage';
+ 
 import Brightness4Icon from '@material-ui/icons/Brightness4';
 import MenuIcon from '@material-ui/icons/Menu';
 import { Route, Switch as Switching } from "react-router";

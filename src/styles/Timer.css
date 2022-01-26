@@ -7,19 +7,20 @@ position: relative;
 max-width: 100%;
 margin: 0;
 margin-bottom: 20px;
+margin-top: 20px;
 }
   .flip-clock-divider {
     display: block;
     float: unset;
     position: relative;
-    width: 68px;
+    width: 40px;
     height: 120px;
 }
 .flip-clock-divider::before {
     content: ":";
     font-family: Quantico-Regular;
     color: #fff;
-    font-size: 120px;
+    font-size: 90px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-box;
@@ -31,7 +32,7 @@ margin-bottom: 20px;
      
 }
 .flip-clock-dot.top {
-    top: 30px;
+    top: 15px;
 }
 .flip-clock-divider span {
     display: none;
@@ -47,26 +48,34 @@ margin-bottom: 20px;
     left: 5px;
 }
 .flip-clock-dot.bottom {
-    bottom: 30px;
+    bottom: 15px;
 }
 .box {
     position: relative;
     float: unset;
     margin: 5px;
     border-radius: 10px;
-    background: #0d1629;
-    padding: 25px;
+    background: #0d1629bf;
+    padding: 10px 20px;
+    border: 2px solid #747474;
 }
  
   #countdown .box p {
     color: #fff;
-    font-size: 75px;
+    font-size: 55px;
     font-weight: 700;
  
   }
   #countdown .box .text {
-    font-size: 20px;
+    font-size: 14px;
     color: #fff;
     font-family: sans-serif;
   }
- 
+ @media(max-width:768px){
+  #countdown .box{
+    width: 40%;
+  }
+  .flip-clock-divider{
+    display: none;
+  }
+ }

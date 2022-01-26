@@ -5,25 +5,26 @@ import Particle from '../Components/Particle';
 import {MainLayout} from '../styles/Layouts';
 import ImageSection from '../Components/ImageSection';
 import Preloader from '../Components/Preloader/Preloader';
+import Banner from '../img/banner.jpeg';
 
+ 
 function HomePage() {
     return (
         <>
         <Preloader/>
+
         <HomePageStyled>
             <div className="particle-con">
                 <Particle />
             </div>
             <div className="typography">
-                <h1 className='cmsoon'>COMING SOON</h1>
+                <h2 className='cmsoon'>META RUFFY PRELUNCH 4 FEBRUARY 2022  AT 20:00 UTC</h2>
                 <Timer/>
                 
             </div>
              
         </HomePageStyled>
-        <MainLayout>
-            <ImageSection/>
-        </MainLayout>
+         
         </>
     )
 }
@@ -32,7 +33,8 @@ const HomePageStyled = styled.header`
     width: 100%;
     height: 100vh;
     position: relative;
-   
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${Banner});
+    
     .typography{
         position: absolute;
         top: 50%;

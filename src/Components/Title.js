@@ -13,7 +13,7 @@ const TitleStyled = styled.div`
     position: relative;
     h2{
         color: var(--white-color);
-        font-size: 3.1rem;
+        font-size: 24px;
         font-weight: 600;
         text-transform: uppercase;
         position: relative;
@@ -22,7 +22,7 @@ const TitleStyled = styled.div`
             font-size: 2.8rem;
         }
         @media screen and (max-width: 370px){
-            font-size: 2rem;
+            font-size: 16px;
         }
         &::before{
             content: "";

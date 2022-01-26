@@ -7,12 +7,15 @@ import PhoneIcon from '@material-ui/icons/Phone';
 import EmailIcon from '@material-ui/icons/Email';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ContactItem from '../Components/ContactItem';
+import AdminImage from '../img/admin.jpeg';
 
 function ContactPage() {
     const phone = <PhoneIcon />
     const email = <EmailIcon />
     const location = <LocationOnIcon />
     return (
+        <>
+        <img src={AdminImage} style={{width:'100%'}} />
         <MainLayout>
             <Title title={'Contact'} span={'Contact'} />
             <ContactPageStyled >
@@ -53,6 +56,7 @@ function ContactPage() {
             </InnerLayout>
             </ContactPageStyled>
         </MainLayout>
+        </>
     )
 }
 

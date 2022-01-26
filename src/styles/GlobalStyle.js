@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #191D2B;
+    --sidebar-dark-color: #091b27;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
@@ -35,7 +35,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #313131;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #E4E4E4;
+    --sidebar-dark-color: #091b27;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
@@ -53,7 +53,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #191D2B;
+    --sidebar-dark-color: #091b27;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;
@@ -174,7 +174,16 @@ h6{
 //Global Media Queries
 
 .cmsoon{
-    margin:20px 0px
+    margin:20px 0px;
+    color:#fff;
+    font-size:30px;
+}
+@media(max-width:480px)
+{
+    .cmsoon{
+        margin-top:120px;
+        font-size:20px;
+    }
 }
 
 `;

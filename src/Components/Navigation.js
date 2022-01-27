@@ -1,15 +1,25 @@
-import React from 'react'
+import React, { useEffect, useRef } from 'react';
+import lottie from 'lottie-web';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import logo from '../img/logo.jpeg';
 import gameIcon from '../img/icon/game.svg';
 
 function Navigation() {
+    const logoanimation = useRef(null)
+
+  useEffect(() => {
+    lottie.loadAnimation({
+      container: logoanimation.current,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      animationData: require('../logo.json')
+    })
+  }, [])
     return (
         <NavigationStyled>
-            <div className="avatar">
-                <img src={logo}  alt=""/>
-               
+            <div className="logoanimation" ref={logoanimation}>   
             </div>
             <ul className="nav-items">
                 <li className="nav-item">

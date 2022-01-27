@@ -34,7 +34,8 @@ const HomePageStyled = styled.header`
     height: 100vh;
     position: relative;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(${Banner});
-    
+    background-repeat:no-repeat;
+    background-size:cover;
     .typography{
         position: absolute;
         top: 50%;
